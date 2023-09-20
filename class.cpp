@@ -23,9 +23,9 @@ void Counter::increaseBy(int value) // add value to the count
 }
 
 // instaciation
-Counter ctr;                    // Instance of Counter
-cout << ctr.getCount() << endl; // Print the counter 0
-ctr.increaseBy(1);              // Increment the counter by 1
-cout << ctr.getCount() << endl; // Print the counter 3
-ctr.increaseBy(5);              // Increment the counter 5
-cout << ctr.getCount() << endl; // prints 8
+Counter ctr;                              // Instance of Counter
+std::cout << ctr.getCount() << std::endl; // Print the counter 0
+ctr.increaseBy(1);                        // Increment the counter by 1
+std::cout << ctr.getCount() << std::endl; // Print the counter 3
+ctr.increaseBy(5);                        // Increment the counter 5
+std::cout << ctr.getCount() << std::endl; // prints 8
