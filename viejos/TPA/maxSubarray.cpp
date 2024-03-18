@@ -1,6 +1,8 @@
 #include <bits/stdc++.h>
 
-int main(int argc, char const *argv[])
+using namespace std;
+
+int main()
 {
     int best = 0;
     for (int a = 0; a < n; a++)
@@ -14,8 +16,8 @@ int main(int argc, char const *argv[])
             }
             best = max(best, sum);
         }
-        std::std::cout << "best"
-                       << "\n";
+        cout << "best"
+             << "\n";
     }
     return 0;
 }
